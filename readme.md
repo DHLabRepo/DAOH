@@ -20,12 +20,9 @@ Required system to run the code includes:
 To generate hologram and reconstruction images, run the following command:
 
 ```bash
-python main.py --slice <start_y> <end_y> <start_x> <end_x>
-```
-
-Example:
-```bash
-python main.py --slice 350 850 550 1050
+git clone https://github.com/DHLabRepo/DAOH
+cd DAOH
+python main.py
 ```
 
 This `main.py` script will:
